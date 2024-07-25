@@ -7,7 +7,7 @@ import java.util.Set;
 public class Forum implements Serializable {
 
     private static final long serialVersionUID = 1L;
-    private int idforum;
+    private int idForum;
     private String assunto;
     private String descricao;
     private Set<Usuario> usuarios = new HashSet<Usuario>(0);
@@ -15,12 +15,12 @@ public class Forum implements Serializable {
     public Forum() {
     }
 
-    public int getIdforum() {
-        return idforum;
+    public int getIdForum() {
+        return idForum;
     }
 
-    public void setIdforum(int idforum) {
-        this.idforum = idforum;
+    public void setIdForum(int idForum) {
+        this.idForum = idForum;
     }
 
     public String getAssunto() {

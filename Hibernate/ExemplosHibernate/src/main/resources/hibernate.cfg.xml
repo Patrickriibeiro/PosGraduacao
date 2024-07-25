@@ -1,10 +1,12 @@
-<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
         "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
 <hibernate-configuration>
     <session-factory>
+        <property name="hibernate.current_session_context_class">thread</property>
         <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
         <property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
-        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/pos_exercicios?useTimezone=true&amp;serverTimezone=UTC</property>
+        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/forum</property>
         <property name="hibernate.connection.username">root</property>
         <property name="hibernate.connection.password">admin123</property>
         <property name="hibernate.hbm2ddl.auto">update</property>
@@ -14,6 +16,5 @@
         <!-- Mapeamentos de classes -->
         <mapping resource="entityORMS/Forum.hbm.xml"/>
         <mapping resource="entityORMS/Usuario.hbm.xml"/>
-
     </session-factory>
 </hibernate-configuration>

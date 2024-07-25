@@ -5,7 +5,7 @@ import java.io.Serializable;
 public class Usuario implements Serializable {
 
     private static final long serialVersionUID = 1L;
-    private int idusuario;
+    private int idUsuario;
     private Forum forum;
     private String nome;
     private String email;
@@ -13,12 +13,12 @@ public class Usuario implements Serializable {
     public Usuario() {
     }
 
-    public int getIdusuario() {
-        return idusuario;
+    public int getIdUsuario() {
+        return idUsuario;
     }
 
-    public void setIdusuario(int idusuario) {
-        this.idusuario = idusuario;
+    public void setIdUsuario(int idUsuario) {
+        this.idUsuario = idUsuario;
     }
 
     public Forum getForum() {

@@ -1,10 +1,9 @@
 <hibernate-mapping>
     <class name="br.com.patrickriibeiro.entity.Forum" table="Forum" catalog="forum">
-        <id name="idforum" type="int">
-            <column name="IDFORUM" />
+        <id name="idForum" type="int">
+            <column name="IDFORUM"/>
             <generator class="assigned"/>
         </id>
-
         <property name="assunto" type="string">
             <column name="ASSUNTO" length="45"/>
         </property>
@@ -13,9 +12,9 @@
         </property>
         <set name="usuarios" inverse="false" cascade="save-update">
             <key>
-                <column name="IDFORUM" not-null="true" />
+                <column name="IDFORUM" not-null="true"/>
             </key>
-            <one-to-many class="br.com.patrickriibeiro.entity.Usuario" />
+            <one-to-many class="br.com.patrickriibeiro.entity.Usuario"/>
         </set>
     </class>
 </hibernate-mapping>
