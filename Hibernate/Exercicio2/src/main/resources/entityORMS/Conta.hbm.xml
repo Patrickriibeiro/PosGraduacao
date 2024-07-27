@@ -1,0 +1,24 @@
+<hibernate-mapping xmlns="http://www.hibernate.org/xsd/orm/hbm">
+    <class name="br.com.patrickriibeiro.entity.Conta" table="Conta" catalog="conta">
+
+        <set name="cpf" inverse="false" cascade="save-update">
+            <key>
+                <column name="IDCPF" not-null="true"/>
+            </key>
+            <one-to-many class="br.com.patrickriibeiro.entity.Cliente"/>
+        </set>
+
+        <property name="agencia" type="int">
+            <column name="AGENCIA" length="12"/>
+        </property>
+
+        <property name="contaCorrente" type="string">
+            <column name="CONTACORRENTE" length="46"/>
+        </property>
+
+        <property name="saldo" type="double">
+            <column name="SALDO" length="62"/>
+        </property>
+
+    </class>
+</hibernate-mapping>
