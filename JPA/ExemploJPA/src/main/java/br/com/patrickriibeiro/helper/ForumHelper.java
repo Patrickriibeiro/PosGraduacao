@@ -14,6 +14,10 @@ public class ForumHelper {
         this.em = em;
     }
 
+    public Forum findById(Integer id){
+        return em.find(Forum.class, id);
+    }
+
     public String salvar(Forum forum) {
         try {
             em.getTransaction().begin();

@@ -8,7 +8,7 @@ import javax.persistence.*;
 
 public class Main {
     public static void main(String[] args) {
-        EntityManagerFactory emf = Persistence.createEntityManagerFactory("Forum");
+        EntityManagerFactory emf = Persistence.createEntityManagerFactory("forum");
         EntityManager em = emf.createEntityManager();
         ForumHelper dao = new ForumHelper(em);
 
@@ -21,6 +21,6 @@ public class Main {
         Usuario usuario = new Usuario();
         usuario.setNome("Joaquim");
         usuario.setEmail("joaquim@ead.com.br");
-        System.out.println(dao.adicionarUsuario(forum.getId(), usuario));
+        System.out.println(dao.adicionarUsuario(dao.findById(1).getId(), usuario));
     }
 }
