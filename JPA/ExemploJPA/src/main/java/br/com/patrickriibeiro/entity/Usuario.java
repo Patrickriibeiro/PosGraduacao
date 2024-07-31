@@ -10,14 +10,13 @@ public class Usuario implements Serializable {
     private static final long serialVersionUID = 1L;
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "IDUSUARIO")
     private int id;
 
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "IDFORUM")
-    private
-    Forum forum;
+    private Forum forum;
 
     @Column(name = "NOME")
     private String nome;
