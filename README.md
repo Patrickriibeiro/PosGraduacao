@@ -1,5 +1,6 @@
 JBOSS TOOLS - CORE - PARA ECLIPSE VERSAO KEPLER - https://download.jboss.org/jbosstools/updates/development/kepler. (Colocar o link quando for instalar o software no eclipse install)
 
+Utilizei o servidor JBOSS 7.1, é necessário conter o jre 7 na idei kepler para executar o servidor, em blogs encontrei users relantando que a versão 7.1 deveria executar com a jre 8 também, porém é necessário alterações complexas no arquivo standalone.xml ou domain.xml, preferi utilizar a versão ideal que a 7.
 
 Versão de dependencias utilizadas no exercicio - 
 
