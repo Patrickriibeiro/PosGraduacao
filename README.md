@@ -37,5 +37,7 @@ obs: Na descrição do exercico mandava realizar o download dos respectivos Jars
 No exercicio 01_FolhaDePagamento, ambos os projetos utilizam o mesmo EAR, o mesmo possui o war gerado através do projeto 01_FolhaDePagamentoWeb e o Jar do 01_FolhaDePagamento.
 
 JAR (Java ARchive): Quando você tem uma biblioteca ou um aplicativo Java standalone. Exemplo: Uma biblioteca utilitária que será usada por outras aplicações.
+
 WAR (Web Application Archive) : Quando você desenvolve uma aplicação web que será executada em um servidor de aplicação web. Exemplo: Um site ou serviço web.
+
 EAR (Enterprise Application Archive) : Quando você está construindo uma aplicação empresarial complexa que precisa integrar diferentes tipos de módulos (web, EJB, etc.). Exemplo: Um sistema de gestão empresarial que inclui uma interface web, lógica de negócios complexa e bibliotecas compartilhadas.
