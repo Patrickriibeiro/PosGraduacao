@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+	id="WebApp_ID" version="3.0">
+	<display-name>01_FolhaDePagamentoWeb</display-name>
+
+	<servlet>
+		<servlet-name>FolhaServlet</servlet-name>
+		<servlet-class>br.com.patrickriibeiro.ServletFolha</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>MostrarSalarioServlet</servlet-name>
+		<servlet-class>br.com.patrickriibeiro.MostrarSalarioServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>FolhaServlet</servlet-name>
+		<url-pattern>/folha</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>MostrarSalarioServlet</servlet-name>
+		<url-pattern>/mostrarSalario</url-pattern>
+	</servlet-mapping>
+
+</web-app>
