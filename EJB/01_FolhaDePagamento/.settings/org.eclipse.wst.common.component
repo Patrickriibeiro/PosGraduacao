@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
-    <wb-module deploy-name="01_FolhaDePagamento">
-        <wb-resource deploy-path="/" source-path="/ejbModule" tag="defaultRootSource"/>
-        <property name="java-output-path" value="/01_FolhaDePagamento/build/classes"/>
-        <property name="ClientProject" value="01_FolhaDePagamentoClient"/>
-        <property name="ClientJARURI" value="01_FolhaDePagamentoClient.jar"/>
-    </wb-module>
-</project-modules>
