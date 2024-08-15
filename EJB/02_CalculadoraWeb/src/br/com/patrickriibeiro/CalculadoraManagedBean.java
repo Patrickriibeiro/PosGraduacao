@@ -8,7 +8,7 @@ import br.com.patrickriibeiro.interfaces.CalculadoraLocal;
 public class CalculadoraManagedBean {
 
 	// informamos o local do EJB via JNDI
-	@EJB(lookup = "ejb:/02_Calculadora/CalculadoraBean!br.com.patrickriibeiro.interfaces")
+	@EJB(lookup = "ejb:/02_Calculadora/CalculadoraBean!br.com.patrickriibeiro.interfaces.CalculadoraLocal")
 	private CalculadoraLocal calc;
 
 	private double x, y;
