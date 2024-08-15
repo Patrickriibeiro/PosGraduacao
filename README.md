@@ -36,6 +36,8 @@ obs: Na descrição do exercico mandava realizar o download dos respectivos Jars
 
 No exercicio 01_FolhaDePagamento, ambos os projetos utilizam o mesmo EAR, o mesmo possui o war gerado através do projeto 01_FolhaDePagamentoWeb e o Jar do 01_FolhaDePagamento.
 
+No exercicio 02_Calculadora, por algum motivo no momento do empacotamento do war(02_CalculadoraWeb) a ide Kepler não estava adicionando o calc.jar como lib do web project JSF, mesmo com o buildPath configurado corretamente, então fiz manualmente.
+
 JAR (Java ARchive): Quando você tem uma biblioteca ou um aplicativo Java standalone. Exemplo: Uma biblioteca utilitária que será usada por outras aplicações.
 
 WAR (Web Application Archive) : Quando você desenvolve uma aplicação web que será executada em um servidor de aplicação web. Exemplo: Um site ou serviço web.
