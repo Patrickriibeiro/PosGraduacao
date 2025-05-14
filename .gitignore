@@ -9,3 +9,13 @@ JavaEE/ServletsExercicios/ExemploSession/.settings/org.eclipse.wst.common.projec
 JavaEE/ServletsExercicios/ExemploSession/.settings/org.eclipse.wst.jsdt.ui.superType.container
 JavaEE/ServletsExercicios/ExemploSession/.settings/org.eclipse.wst.jsdt.ui.superType.name
 
+JavaEE/ServletsExercicios/ExemploScriptlet/.settings/org.eclipse.jdt.core.prefs
+*.xml
+*.name
+*.MF
+*.component
+/JavaEE/ServletsExercicios/ExemploScriptlet/.settings
+JavaEE/ServletsExercicios/ExemploScriptlet/.classpath
+JavaEE/ServletsExercicios/ExemploScriptlet/.project
+JavaEE/ServletsExercicios/Servers/Tomcat v7.0 Server at localhost-config/server.xml
+JavaEE/ServletsExercicios/Servers/Tomcat v7.0 Server at localhost-config/server.xml
