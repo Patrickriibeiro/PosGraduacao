@@ -19,3 +19,10 @@ JavaEE/ServletsExercicios/ExemploScriptlet/.classpath
 JavaEE/ServletsExercicios/ExemploScriptlet/.project
 JavaEE/ServletsExercicios/Servers/Tomcat v7.0 Server at localhost-config/server.xml
 JavaEE/ServletsExercicios/Servers/Tomcat v7.0 Server at localhost-config/server.xml
+JavaEE/ServletsExercicios/ExemploJavaBeans/.classpath
+JavaEE/ServletsExercicios/ExemploJavaBeans/.project
+JavaEE/ServletsExercicios/ExemploJavaBeans/.settings/.jsdtscope
+JavaEE/ServletsExercicios/ExemploJavaBeans/.settings/org.eclipse.core.resources.prefs
+JavaEE/ServletsExercicios/ExemploJavaBeans/.settings/org.eclipse.jdt.core.prefs
+JavaEE/ServletsExercicios/ExemploJavaBeans/.settings/org.eclipse.wst.jsdt.ui.superType.container
+JavaEE/ServletsExercicios/ExemploJavaBeans/build/classes/com/patrickriibeiro/javabeans/Automovel.class
