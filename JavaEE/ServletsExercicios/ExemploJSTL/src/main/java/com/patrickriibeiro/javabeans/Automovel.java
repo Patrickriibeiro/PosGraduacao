@@ -1,6 +1,8 @@
 package com.patrickriibeiro.javabeans;
 
 import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Automovel implements Serializable {
 
@@ -18,14 +20,10 @@ public class Automovel implements Serializable {
 		this.modelo = modelo;
 		this.ano = ano;
 	}
-	
-	
 
 	public Automovel() {
 		super();
 	}
-
-
 
 	public String getMarca() {
 		return marca;
@@ -57,6 +55,15 @@ public class Automovel implements Serializable {
 		} else {
 			return "Carro velho";
 		}
+	}
+
+	public List<Automovel> getListaVeiculos() {
+		List<Automovel> lista = new ArrayList<Automovel>();
+		lista.add(new Automovel("Forda", "Fiesta", 2012));
+		lista.add(new Automovel("Peugeot", "208", 2014));
+		lista.add(new Automovel("GM", "Corsa", 2009));
+
+		return lista;
 	}
 
 }
