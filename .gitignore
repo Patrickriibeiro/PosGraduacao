@@ -30,3 +30,9 @@ JavaEE/ServletsExercicios/ExemploJSTL/.classpath
 JavaEE/ServletsExercicios/ExemploJSTL/.project
 /JavaEE/ServletsExercicios/ExemploJSTL/.settings
 /JavaEE/ServletsExercicios/ExemploJSTL/build/classes
+/JavaEE/ServletsExercicios/javax.faces-2.1.10
+/JavaEE/ServletsExercicios/libraries
+/JavaEE/ServletsExercicios/ExemploJSF/.settings
+JavaEE/ServletsExercicios/ExemploJSF/.classpath
+JavaEE/ServletsExercicios/ExemploJSF/.metadata/src/main/webapp/WEB-INF/faces-config.pageflow
+JavaEE/ServletsExercicios/ExemploJSF/.project
